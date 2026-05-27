@@ -6,6 +6,7 @@
   "timezone": "Etc/UTC",
   "rangeStrategy": "replace",
   "enabledManagers": ["mix"],
+  "assignees": ["lud"],
   "lockFileMaintenance": {
     "enabled": true,
     "schedule": [
