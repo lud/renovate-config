@@ -4,6 +4,7 @@
     "config:recommended"
   ],
   "timezone": "Etc/UTC",
+  "rangeStrategy": "replace",
   "lockFileMaintenance": {
     "enabled": true,
     "schedule": [
