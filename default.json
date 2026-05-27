@@ -5,6 +5,7 @@
   ],
   "timezone": "Etc/UTC",
   "rangeStrategy": "replace",
+  "enabledManagers": ["mix"],
   "lockFileMaintenance": {
     "enabled": true,
     "schedule": [
