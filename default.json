@@ -1,0 +1,17 @@
+{
+  "$schema": "https://docs.renovatebot.com/renovate-schema.json",
+  "extends": [
+    "config:recommended"
+  ],
+  "timezone": "Etc/UTC",
+  "lockFileMaintenance": {
+    "enabled": true,
+    "schedule": [
+      "before 5am on monday"
+    ],
+    "commitMessageAction": "Refresh",
+    "commitMessageTopic": "lockfile"
+  },
+  "prHourlyLimit": 0,
+  "prConcurrentLimit": 0
+}
