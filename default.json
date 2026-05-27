@@ -13,5 +13,19 @@
     "commitMessageTopic": "lockfile"
   },
   "prHourlyLimit": 0,
-  "prConcurrentLimit": 0
+  "prConcurrentLimit": 0,
+  "packageRules": [
+    {
+      "matchManagers": ["mix"],
+      "matchDepTypes": ["prod"],
+      "groupName": "prod deps",
+      "groupSlug": "mix-prod"
+    },
+    {
+      "matchManagers": ["mix"],
+      "matchDepTypes": ["dev", "test"],
+      "groupName": "dev deps",
+      "groupSlug": "mix-dev"
+    }
+  ]
 }
